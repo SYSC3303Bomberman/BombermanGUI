@@ -17,7 +17,7 @@ public class BombGUI extends JFrame {
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		panel.setLayout(new GridLayout(5,6));
-		panel.setBorder(BorderFactory.createEmptyBorder(2,2,2,2));
+		panel.setBorder(BorderFactory.createEmptyBorder(0,0,0,0));
 		for(int i = 0; i < 30; i++){
 			labels[i] = new JLabel();
 			labels[i].setBorder(BorderFactory.createLineBorder(Color.BLACK));
