@@ -10,15 +10,15 @@ import javax.swing.JPanel;
 public class BombGUI extends JFrame {
 	JPanel panel = new JPanel();
 	JFrame frame = new JFrame();
-	JLabel labels[] = new JLabel[30];
+	JLabel labels[] = new JLabel[315];
 	
 	public BombGUI(){
-		frame.setSize(400, 400);
-		frame.setResizable(false);
+		frame.setSize(800, 700);
+		frame.setResizable(true);
 		frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
-		panel.setLayout(new GridLayout(5,6));
+		panel.setLayout(new GridLayout(15,21));
 		panel.setBorder(BorderFactory.createEmptyBorder(0,0,0,0));
-		for(int i = 0; i < 30; i++){
+		for(int i = 0; i < 315; i++){
 			labels[i] = new JLabel();
 			labels[i].setBorder(BorderFactory.createLineBorder(Color.BLACK));
 			panel.add(labels[i]);
