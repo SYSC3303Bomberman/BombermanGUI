@@ -8,6 +8,7 @@ import javax.swing.JPanel;
 
 
 public class BombGUI extends JFrame {
+	private static final long serialVersionUID = 1L;
 	JPanel panel = new JPanel();
 	JFrame frame = new JFrame();
 	JLabel labels[] = new JLabel[315];
