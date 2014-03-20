@@ -20,7 +20,8 @@ public class BombGUI extends JFrame {
 		panel.setLayout(new GridLayout(15,21));
 		panel.setBorder(BorderFactory.createEmptyBorder(0,0,0,0));
 		for(int i = 0; i < 315; i++){
-			labels[i] = new JLabel();
+			labels[i] = new JLabel("x");
+			labels[i].setHorizontalAlignment(JLabel.CENTER);
 			labels[i].setBorder(BorderFactory.createLineBorder(Color.BLACK));
 			panel.add(labels[i]);
 		}
